@@ -4,6 +4,7 @@
   "description": "My own implementation of Instagram.",
   "author": "Ricky Dam",
   "dependencies": {
+    "angular-ui-bootstrap": "^2.3.1",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "method-override":"^2.3.7",
