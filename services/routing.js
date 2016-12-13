@@ -15,11 +15,38 @@ function checkIfMobile() {
 checkIfMobile();
 
 // Configure the routing
-var app = angular.module('theApp', ['ngRoute', 'controllers', 'ui.bootstrap']);
-app.config(['$routeProvider', function($routeProvider) {
-  $routeProvider
-    .when('/', {
-      templateUrl: (isMobile)? 'views/mobile.html':'views/main.html',
-      controller: (isMobile)? 'myController':'myController'
+var app = angular.module('theApp', ['ui.router']);
+app.config(function($stateProvider) {
+  $stateProvider
+    .state('home', {
+      url: '/',
+      templateUrl: 'views/main.html'
     })
+    .state('register', {
+      url: '/register',
+      templateUrl: 'views/register.html'
+    })
+    .state('login', {
+      url: '/login',
+      templateUrl: 'views/login.html'
+    });
+});
+
+app.controller('myController', function($scope, $state) {
+  $scope.$state = $state;
+});
+
+// Configure the routing
+// var app = angular.module('theApp', ['ngRoute', 'controllers', 'ui.bootstrap']);
+// app.config(['$routeProvider', function($routeProvider) {
+//   $routeProvider
+//     .when('/', {
+//       templateUrl: (isMobile)? 'views/mobile.html':'views/main.html',
+//       controller: (isMobile)? 'myController':'myController'
+//     })
+// }]);
+
+// Remove the hastag from localhost:8080/#
+app.config(['$locationProvider', function($locationProvider) {
+  $locationProvider.html5Mode(true);
 }]);

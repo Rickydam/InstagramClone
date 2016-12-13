@@ -1,2 +1,2 @@
 # https://rickydam-instagram.herokuapp.com/
-A webapp with user accounts that can store images.
+A photo-sharing WebApp with user accounts that can store images.

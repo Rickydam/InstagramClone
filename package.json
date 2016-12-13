@@ -5,6 +5,7 @@
   "author": "Ricky Dam",
   "dependencies": {
     "angular-ui-bootstrap": "^2.3.1",
+    "angular-ui-router": "^0.3.2",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "method-override":"^2.3.7",
