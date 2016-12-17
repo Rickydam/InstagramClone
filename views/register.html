@@ -1,5 +1,10 @@
 <link rel="shortcut icon" href="#">
+<font color="white">
 
-<div class="container-fluid">
-  <h1> OMG THE REGISTER PAGE </h1>
+<div class="container-fluid col-xs-5" ng-controller="formController">
+  Your username has to be unique.
+  <input class="form-control" type="text" placeholder="Pick a username" style="margin-top:5px" ng-model="formData.username"><br>
+  Your password must be at least 8 characters, have a mix of lowercase and uppercase letters, but also include a special character.
+  <input class="form-control" type="password" placeholder="Create a password" style="margin-top:5px" ng-model="formData.password"><br>
+  <input class="btn btn-primary" type="submit" value="Sign Up">
 </div>
