@@ -13,6 +13,10 @@ app.config(function($stateProvider) {
     .state('login', {
       url: '/login',
       templateUrl: 'views/login.html'
+    })
+    .state("otherwise", {
+      url: '*path',
+      templateUrl: "views/home.html"
     });
 });
 
