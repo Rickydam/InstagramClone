@@ -35,10 +35,18 @@
     background-color: white;
 }
 
+/* Main background colour */
 body {
   background-color: #A57455;
 }
 
+/* Remove white outline of the navbar */
 .navbar.navbar-default {
   border: none;
+}
+
+/* Billbong, custom font configuration */
+@font-face {
+  font-family: 'Billabong';
+  src: url(billabong.woff);
 }
