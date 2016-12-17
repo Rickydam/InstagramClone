@@ -1,7 +1,7 @@
 /* Navbar right items active */
 .active {
   font-weight: 900;
-  font-size: 20;
+  font-size: 25;
 }
 
 /* Navbar colour */
@@ -49,4 +49,10 @@ body {
 @font-face {
   font-family: 'Billabong';
   src: url(billabong.woff);
+}
+
+/* Mobile hamburger hover colour */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #A57455;
 }
