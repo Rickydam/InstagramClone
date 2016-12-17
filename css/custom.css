@@ -1,4 +1,44 @@
+/* Navbar right items active */
 .active {
-  font-weight: bold;
-  color: orange;
+  font-weight: 900;
+  font-size: 20;
+}
+
+/* Navbar colour */
+.navbar {
+  background-color: #8B4513;
+}
+
+/* Navbar right items colour */
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+}
+
+/* Navbar brand colour */
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+/* Navbar right items hover colour */
+.navbar .nav > li > a:hover {
+  color: #CDAF95;
+}
+
+/* Navbar brand hover colour */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #CDAF95;
+}
+
+/* Mobile hamburger collapse bars colour */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+body {
+  background-color: #A57455;
+}
+
+.navbar.navbar-default {
+  border: none;
 }
