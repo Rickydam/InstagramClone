@@ -85,8 +85,8 @@ body {
 /* Add a 3px border around the logo */
 #theLogo {
   width: 180px;
-  margin-bottom: 40px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   filter: drop-shadow(3px 3px 0 white)
           drop-shadow(-3px 3px 0 white)
           drop-shadow(3px -3px 0 white)
@@ -121,18 +121,18 @@ body {
 
 /* Change the h1 font size */
 #InstagramClone {
-  font-size: 400%;
+  font-size: 350%;
 }
 
 /* Change the h1 font size */
 #by {
-  font-size: 300%;
+  font-size: 250%;
   margin-top: -15px;
 }
 
 /* Change the h1 font size */
 #RickyDam {
-  font-size: 400%;
+  font-size: 350%;
   margin-top: -10px;
 }
 
@@ -164,7 +164,7 @@ body {
 
 /* Top margin for login.html*/
 #loginContainer {
-  margin-top: 160px;
+  margin-top: 140px;
 }
 
 /* Second login button styling */
