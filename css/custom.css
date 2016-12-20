@@ -84,9 +84,9 @@ body {
 
 /* Add a 3px border around the logo */
 #theLogo {
-  width: 200px;
-  margin-bottom: 50px;
-  margin-top: 40px;
+  width: 180px;
+  margin-bottom: 40px;
+  margin-top: 30px;
   filter: drop-shadow(3px 3px 0 white)
           drop-shadow(-3px 3px 0 white)
           drop-shadow(3px -3px 0 white)
@@ -138,14 +138,15 @@ body {
 
 /* Add a top margin to home.html */
 #homeContainer {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 /* Add a top margin to signup.html */
 #signupContainer {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
+/* Back button styling */
 #backButton {
   width: 80px;
   height: 40px;
@@ -153,6 +154,7 @@ body {
   background-color: #CC3232;
 }
 
+/* Second signup button styling */
 #signupButton2 {
   width: 80px;
   height: 40px;
@@ -160,10 +162,12 @@ body {
   background-color: #228B22;
 }
 
+/* Top margin for login.html*/
 #loginContainer {
-  margin-top: 180px;
+  margin-top: 160px;
 }
 
+/* Second login button styling */
 #loginButton2 {
   width: 80px;
   height: 40px;
