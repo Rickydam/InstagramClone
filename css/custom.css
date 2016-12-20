@@ -45,7 +45,7 @@ body {
   border: none;
 }
 
-/* Billbong, custom font configuration */
+/* Billabong, custom font configuration */
 @font-face {
   font-family: 'Billabong';
   src: url(billabong.woff);
@@ -55,4 +55,118 @@ body {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #A57455;
+}
+
+/* Put a set size on the textfields */
+.form-control {
+  width: 250px;
+}
+
+/* The space between the bullet point and the text */
+#bulletPoint1text, #bulletPoint2text, #bulletPoint3text {
+  margin-left: -15px;
+}
+
+/* The space between the left side and the bullet point */
+#bulletPoint1 {
+  margin-left: 2px;
+}
+
+/* The space between the left side and the bullet point */
+#bulletPoint2 {
+  margin-left: -1px;
+}
+
+/* The space between the left side and the bullet point */
+#bulletPoint3 {
+  margin-left: -5px;
+}
+
+/* Add a 3px border around the logo */
+#theLogo {
+  width: 200px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  filter: drop-shadow(3px 3px 0 white)
+          drop-shadow(-3px 3px 0 white)
+          drop-shadow(3px -3px 0 white)
+          drop-shadow(-3px -3px 0 white);
+}
+
+/* Edit the signup button styles */
+#signupButton1 {
+  background-color: #404040;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* Edit the login button styles */
+#loginbutton1 {
+  background-color: #404040;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* Change btn class hover colour */
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #949494;
+  text-decoration: none;
+}
+
+/* Change the h1 font size */
+#InstagramClone {
+  font-size: 400%;
+}
+
+/* Change the h1 font size */
+#by {
+  font-size: 300%;
+  margin-top: -15px;
+}
+
+/* Change the h1 font size */
+#RickyDam {
+  font-size: 400%;
+  margin-top: -10px;
+}
+
+/* Add a top margin to home.html */
+#homeContainer {
+  margin-top: 30px;
+}
+
+/* Add a top margin to signup.html */
+#signupContainer {
+  margin-top: 80px;
+}
+
+#backButton {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #CC3232;
+}
+
+#signupButton2 {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #228B22;
+}
+
+#loginContainer {
+  margin-top: 180px;
+}
+
+#loginButton2 {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #236B8E;
 }

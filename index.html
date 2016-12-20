@@ -21,27 +21,7 @@
     <link rel="stylesheet" href="css/billabong.css">
   </head>
 
-  <body>
-    <div class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only"> Toggle navigation </span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" ui-sref="home"><b> Instagram </b></a>
-        </div>
-        <div class="navbar-collapse collapse" ng-controller="stateController">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a ui-sref="home" ng-class="{active: $state.current.name == 'home'}"> HOME </a></li>
-            <li><a ui-sref="register" ng-class="{active: $state.current.name == 'register'}"> REGISTER </a></li>
-            <li><a ui-sref="login" ng-class="{active: $state.current.name == 'login'}"> LOGIN </a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <body ng-controller="stateController">
     <div ui-view></div>
   </body>
 </html>

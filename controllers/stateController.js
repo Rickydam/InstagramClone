@@ -18,9 +18,9 @@ app.config(function($stateProvider) {
       url: '/home',
       templateUrl: 'views/home.html'
     })
-    .state('register', {
-      url: '/register',
-      templateUrl: 'views/register.html'
+    .state('signup', {
+      url: '/signup',
+      templateUrl: 'views/signup.html'
     })
     .state('login', {
       url: '/login',

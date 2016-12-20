@@ -1,0 +1,26 @@
+<link rel="shortcut icon" href="#">
+<font color="white">
+
+<div class="container-fluid"  id="signupContainer">
+  <center>
+    <font face="Billabong">
+      <button class="btn" id="backButton" ui-sref="home"> Back </button><br><br>
+    </font>
+    <div ng-controller="formController">
+      Your username has to be unique.
+      <input class="form-control" type="text" placeholder="Pick a username" style="margin-top:5px" ng-model="formData.pickUsername"><br>
+      Your password must have: <br>
+      <li id="bulletPoint1"><span id="bulletPoint1text"> at least 8 characters </li>
+      <li id="bulletPoint2"><span id="bulletPoint2text"> an uppercase letter </li>
+      <li id="bulletPoint3"><span id="bulletPoint3text"> a special character </li>
+      <input class="form-control" type="password" placeholder="Create a password" style="margin-top:5px" ng-model="formData.passwordOnce"><br>
+      Enter your password again. <br>
+      To make sure there's no typo in your password. <br>
+      Which would render your account useless. <br>
+      <input class="form-control" type="password" placeholder="Confirm password" style="margin-top:5px" ng-model="formData.passwordTwice"><br>
+    </div>
+    <font face="Billabong">
+      <button class="btn" type="submit" id="signupButton2"> Sign Up </button>
+    </font>
+  </center>
+</div>
